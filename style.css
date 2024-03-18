@@ -1,0 +1,44 @@
+.chakra-petch-regular {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+:root{
+    --cor-de-fundo:var(--cor-de-fundo)#13C9E2;
+    --botao-ativo:var(--botao-ativo)#000000;
+    --botao-ativo:var(--botao-ativo) #FFFFFF:
+    --botao-inativo:rgba(0, 0, 0, 1);
+    --texto-fundo:rgba(19, 201, 226, 1);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{
+    color: var(--verde);
+}
+
+.botao{
+    font-family: "Crakra Petch",sans-serif;
+}
